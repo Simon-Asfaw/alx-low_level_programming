@@ -10,8 +10,12 @@ int main(void)
 {
 	char a;
 
-	for (a = 'a'; a < 'e' || a < 'q' || a <= 'z' ; a++)
+	for (a = 'a'; a <= 'z' ; a++)
 	{
+		if (a == 'e' || a == 'p')
+		{
+			continue;
+		}
 		putchar(a);
 	}
 	putchar('\n');
