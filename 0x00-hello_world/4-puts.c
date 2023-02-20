@@ -1,7 +1,11 @@
 #include <stdio.h>
 
 /**
- * This main funct bussin cuz
+ * main - is function
+ *
+ * Description: 'this is where it starts'
+ *
+ * Return: thats zero 0
  */
 
 int main(void)
