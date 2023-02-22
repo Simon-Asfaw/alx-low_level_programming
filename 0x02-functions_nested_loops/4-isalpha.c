@@ -2,7 +2,7 @@
 /**
  * _isalpha - checks alp
  * @c : is the var
- * Return : my mango 1 0r0
+ * return : my mango 1 0r0
  */
 
 int _isalpha(int c)
