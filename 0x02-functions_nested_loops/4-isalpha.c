@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
- * _isalpha - checks alp
+ * _isalpha - checks for alphabet
  * @c : is the var
- * return : my mango 1 0r0
+ * Return : my mango 1 0r0
  */
 
 int _isalpha(int c)
