@@ -2,7 +2,7 @@
 /**
  * _abs - does abs
  * @y: neg
- * Returns: maindish
+ * Returns: ma
  */
 
 int _abs(int y)
