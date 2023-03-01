@@ -4,8 +4,6 @@
  * swap_int - swap num
  * @a: var1
  * @b: var2
- * @p: tem ptr
- * @p2: tem ptr2
  * Return: void
  */
 
