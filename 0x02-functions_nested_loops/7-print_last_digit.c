@@ -3,22 +3,22 @@
 /**
  * print_last_digit - prints last dig
  *
+ * @n: input
+ *
  * Return: int
  */
 
 int print_last_digit(int n)
 {
-	int a;
-
 	if (n % 10 >= 0)
 	{
-		a = n % 10;
-		return (a);
+		n = n % 10;
+		return (n);
 	}
 	else
 	{
-		a = n % 10;
-		a = -1 * a;
-		return (a);
+		n = n % 10;
+		n = -1 * n;
+		return (n);
 	}
 }
