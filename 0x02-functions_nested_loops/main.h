@@ -13,6 +13,7 @@
  * print_sign - sing pring
  * times_table - tt
  * jack_bauer - jack
+ * add - add 1 and 2
  * Return: On success 1
  * On error, -1 is returned, and errno is set appropriately.
  */
@@ -27,3 +28,4 @@ int _abs(int);
 int print_last_digit(int n);
 void jack_bauer(void);
 void times_table(void);
+int add(int, int);
