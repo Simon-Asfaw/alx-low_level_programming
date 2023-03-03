@@ -3,6 +3,7 @@
 /**
  * _putchar - writes the character c to stdout
  * @c: The character to print
+ * @n: digit
  * _islower - coll
  * _isalpha - even cooler
  * print_alphabet - alpha
@@ -10,6 +11,7 @@
  * _abs: abbs
  * print_last_digit - prints last dig
  * print_sign - sing pring
+ * jack_bauer - jack
  * Return: On success 1
  * On error, -1 is returned, and errno is set appropriately.
  */
@@ -21,4 +23,4 @@ int _islower(int c);
 int _isalpha(int c);
 int print_sign(int n);
 int _abs(int);
-int print_last_digit(int);
+int print_last_digit(int n);
