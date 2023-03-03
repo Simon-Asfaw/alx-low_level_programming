@@ -22,7 +22,7 @@ void times_table(void)
 			z = i * j;
 			if (z < 10)
 			{
-				nim1 = ' ';
+				num1 = ' ';
 				num2 = ' ';
 				num3 = z;
 			}
