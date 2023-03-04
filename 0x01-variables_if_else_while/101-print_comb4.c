@@ -14,8 +14,8 @@ int main(void)
 	int z;
 	int i;
 
-	z = 1;
-	i = 2;
+	z = 2;
+	i = 1;
 
 	for (j = i; j <= 7; j++)
 	{
