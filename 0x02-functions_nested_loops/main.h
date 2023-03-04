@@ -15,6 +15,7 @@
  * jack_bauer - jack
  * add - add 1 and 2
  * print_to_98 - print seq
+ * _natural - add multip of 5 or 3 till 1024
  * Return: On success 1
  * On error, -1 is returned, and errno is set appropriately.
  */
@@ -31,3 +32,4 @@ void jack_bauer(void);
 void times_table(void);
 int add(int, int);
 void print_to_98(int n);
+void _natural(void);
