@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - wa
- * Description: na
- * Return: di
+ * main - prints unique combo of numbers
+ * Description: prints numbers
+ * Return: void
  */
 
 int main(void)
@@ -17,8 +17,8 @@ int main(void)
 	{
 		for (; b <= 9; b++)
 		{
-			putchar(a);
-			putchar(b);
+			putchar('0' + a);
+			putchar('0' + b);
 			putchar(',');
 			putchar(' ');
 		}
