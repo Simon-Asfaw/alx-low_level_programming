@@ -23,6 +23,7 @@ int main(void)
 		{
 			for (b = 2; b <= 9; b++)
 			{
+				putchar('0' + j);
 				putchar('0' + a);
 				putchar('0' + b);
 				if (j == 7 && a == 8 && b == 9)
