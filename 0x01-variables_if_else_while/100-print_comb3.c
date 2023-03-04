@@ -10,19 +10,20 @@ int main(void)
 {
 	int a;
 	int b;
+	int z;
 
-	b = 1;
+	z = 1;
 
 	for (a = 0; a <= 8 ; a++)
 	{
-		for (; b <= 9; b++)
+		for (b = z; b <= 9; b++)
 		{
 			putchar('0' + a);
 			putchar('0' + b);
 			putchar(',');
 			putchar(' ');
 		}
-		b++;
+		z++;
 	}
 	putchar('\n');
 	return (0);
