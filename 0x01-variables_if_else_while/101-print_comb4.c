@@ -8,28 +8,31 @@
 
 int main(void)
 {
-	int j;
 	int a;
 	int b;
-	int z;
+	int c;
 	int i;
+	int j;
+	int k;
 
-	z = 1;
 	i = 0;
+	j = 1;
+	k = 2;
 
-	for (j = i; j <= 7; j++)
+	for (a = i; a <= 7; a++)
 	{
-		for (a = z; a <= 8 ; a++)
+		for (b = j; b <= 8 ; b++)
 		{
-			for (b = 2; b <= 9; b++)
+			for (c = k; c <= 9; c++)
 			{
-				putchar('0' + j);
 				putchar('0' + a);
 				putchar('0' + b);
+				putchar('0' + c);
 				putchar(',');
 				putchar(' ');
 			}
-			z++;
+			j++;
+			k++;
 		}
 		i++;
 	}
