@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- *_puts_recursion: done
- * @S: something
+ *_puts_recursion         - done
+ * @s: something
  * Return: void
  */
 
 void _puts_recursion(char *s)
 {
-	_puts(s, _puts_recursion);
+	_putchar(s, _puts_recursion);
 }
